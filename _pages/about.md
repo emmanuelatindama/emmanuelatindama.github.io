@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Assistant Professor in Mathematics and Data Science</a>.  @ Department of Mathematics and Statistics University of Toledo
 
 profile:
   align: left
   image: headshot_EAA.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>University Hall 2030B</p>
-    <p>2801 W. Bancroft St.</p>
-    <p>Toledo, Ohio 43606-3390</p>
+  # more_info: >
+  #   <p>University Hall 2030B</p>
+  #   <p>2801 W. Bancroft St.</p>
+  #   <p>Toledo, Ohio 43606-3390</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

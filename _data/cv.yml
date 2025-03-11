@@ -1,32 +1,38 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Emmanuel A. Atindama
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Emmanuel A. Atindama
+#     - name: Date of Birth
+#       value: 14th March 1879
+#     - name: Languages
+#       value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD Mathematics
+      institution: Clarkson University, Potsdam, NY
+      year: 2019 - 2024
       description:
-        - Description 1.
+        - Advised by Dr. Prashant Athavale
         - Description 2.
-        - title: Description 3.
+        - title: Computer Vision (Image Reconstruction).
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Research for reconstructing grain microstructures of materials 
+              using hybrid machine learning.
+            - Proposed algorithm for estimating spatial deviation using a 3D convolution kernel.
+    - title: MS Mathematics
+      institution: Clarkson University, Potsdam, NY
+      year: 2019 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Research in Variational Methods for Image Analysis
+        - Design of Experiments and Sampling Schemes
+    - title: BS Statistics Mathematics
+      institution: University of Ghana, Accra, Ghana
+      year: 2013 - 2017
+      description:
+        - Description 1
 
 - title: Experience
   type: time_table
