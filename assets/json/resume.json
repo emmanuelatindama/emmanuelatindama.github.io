@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Emmanuel A. Atindama",
+    "label": "Mathematician | Statistician | Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "emmanuelatindama@gmail.com",
+    "phone": "(419) 530-2625",
+    "url": "https://emmanuelatindama.github.io/cv/",
+    "summary": "A Mathematics researcher with 8yrs of experience, whose goal is to find applications that that will help improve human living and resource allocation",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "University Hall 2030B, 2801 W. Bancroft St.",
+      "postalCode": "OH 43606-3390",
+      "city": "Toledo",
       "countryCode": "US",
-      "region": "California"
+      "region": "Ohio"
     },
     "profiles": [
       {
