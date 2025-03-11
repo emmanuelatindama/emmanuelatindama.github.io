@@ -47,15 +47,30 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Clarkson University",
+      "location": "Potsdam, NY",
+      "area": "Computer Vision [Image Reconstruction]",
+      "studyType": "PhD Mathematics",
+      "startDate": "2021-09",
+      "endDate": "2024-12",
+      "courses": ["Optimization, Matrix Theory, Numerical Analysis", "Research for reconstructing grain microstructures of materials using hybrid machine learning", "Proposed algorithm for estimating spatial deviation using a 3D convolution kernel."]
+    },
+    {
+      "institution": "Clarkson University",
+      "location": "Potsdam, NY",
+      "area": "Computer Vision [Image Reconstruction]",
+      "studyType": "MS Mathematics",
+      "startDate": "2019-07",
+      "endDate": "2021-05",
+      "courses": ["Statistical Methods, Dynamical Systems", "Design of Experiments and Sampling Schemes", "Research in Variational Methods for Image Analysis"]
+    },
+    {
+      "institution": "University of Ghana",
+      "location": "Accra, Ghana",
+      "area": "Computer Vision [Image Reconstruction]",
+      "studyType": "BS Statistics and Mathematics",
+      "startDate": "2013-09",
+      "endDate": "2017-05"
     }
   ],
   "awards": [
