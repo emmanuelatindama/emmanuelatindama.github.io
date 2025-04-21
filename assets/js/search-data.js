@@ -48,7 +48,7 @@ ninja.data = [{
         
           title: "Experimental Design to Determine Drug Toxicity Level",
         
-        description: "this is what included plotly.js code could look like",
+        description: "This experimental design was a part of larger experiment to determine the effects of a drug at different dosages.",
         section: "Posts",
         handler: () => {
           
