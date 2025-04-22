@@ -44,9 +44,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-experimental-design-to-determine-drug-toxicity-level",
+        },{id: "post-bioassay-experimental-design-to-determine-drug-toxicity-amp-129514",
         
-          title: "Experimental Design to Determine Drug Toxicity Level",
+          title: "(Bioassay) Experimental Design to Determine Drug Toxicity &amp;#129514;",
         
         description: "This experimental design was a part of larger experiment to determine the effects of a drug at different dosages.",
         section: "Posts",
