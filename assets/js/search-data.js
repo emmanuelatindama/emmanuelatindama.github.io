@@ -37,11 +37,11 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-bioassay-experimental-design-to-determine-drug-toxicity-amp-129514",
+        },{id: "post-designing-bioassays-to-detect-dose-dependent-drug-toxicity-via-intravitreal-injection",
         
-          title: "(Bioassay) Experimental Design to Determine Drug Toxicity &amp;#129514;",
+          title: "Designing Bioassays to Detect Dose-Dependent Drug Toxicity via Intravitreal Injection 🧪",
         
-        description: "This experimental design was a part of larger experiment to determine the effects of a drug at different dosages.",
+        description: "This experimental design was part of a larger bioassay to evaluate the toxic effects of a drug administered intravitreally at varying dosages.",
         section: "Posts",
         handler: () => {
           
