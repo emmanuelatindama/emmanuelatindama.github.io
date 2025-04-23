@@ -44,7 +44,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-restoration-of-electron-backscatter-diffraction-maps",
+        },{id: "post-a-post-with-math",
+        
+          title: "a post with math",
+        
+        description: "What makes two models (curves) identical?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/model-comparison/";
+          
+        },
+      },{id: "post-a-post-with-math",
+        
+          title: "a post with math",
+        
+        description: "an example of a blog post with some math",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/sampling-methods/";
+          
+        },
+      },{id: "post-restoration-of-electron-backscatter-diffraction-maps",
         
           title: "Restoration of Electron Backscatter Diffraction Maps",
         
@@ -141,28 +163,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/distill/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "What makes two models (curves) identical?",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/model-comparison/";
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "an example of a blog post with some math",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/sampling-methods/";
           
         },
       },{id: "post-a-post-with-math",
