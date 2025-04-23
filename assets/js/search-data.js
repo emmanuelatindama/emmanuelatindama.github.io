@@ -44,7 +44,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-designing-bioassays-to-detect-dose-dependent-drug-toxicity-via-intravitreal-injection",
+        },{id: "post-restoration-of-electron-backscatter-diffraction-maps",
+        
+          title: "Restoration of Electron Backscatter Diffraction Maps",
+        
+        description: "In this blog, I decribe a Total Variation model for denoising microscopy data for materials. It is an old model that has been repurposed and proposed for this work.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/image-restoration/";
+          
+        },
+      },{id: "post-hybrid-deep-learning-model-for-inpainting",
+        
+          title: "Hybrid Deep-Learning Model for Inpainting",
+        
+        description: "In this blog, I decribe a model for inpainting microscopy data for materials. It&#39;s direct application is in material science, although the technique is applicaple to all types of data, subject to a change in the loss function and similarity metric.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/hybrid-inpainting/";
+          
+        },
+      },{id: "post-designing-bioassays-to-detect-dose-dependent-drug-toxicity-via-intravitreal-injection",
         
           title: "Designing Bioassays to Detect Dose-Dependent Drug Toxicity via Intravitreal Injection 🧪",
         
@@ -119,6 +141,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2021/distill/";
+          
+        },
+      },{id: "post-a-post-with-math",
+        
+          title: "a post with math",
+        
+        description: "What makes two models (curves) identical?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/model-comparison/";
+          
+        },
+      },{id: "post-a-post-with-math",
+        
+          title: "a post with math",
+        
+        description: "an example of a blog post with some math",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/sampling-methods/";
           
         },
       },{id: "post-a-post-with-math",
