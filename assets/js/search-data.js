@@ -66,9 +66,20 @@ ninja.data = [{
             window.location.href = "/blog/2025/hybrid-inpainting/";
           
         },
-      },{id: "post-designing-bioassays-to-detect-dose-dependent-drug-toxicity-via-intravitreal-injection",
+      },{id: "post-a-post-with-math",
         
-          title: "Designing Bioassays to Detect Dose-Dependent Drug Toxicity via Intravitreal Injection 🧪",
+          title: "a post with math",
+        
+        description: "an example of a blog post with some math",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/sampling-methods/";
+          
+        },
+      },{id: "post-designing-bioassays-to-detect-dose-dependent-drug-toxicity",
+        
+          title: "Designing Bioassays to Detect Dose-Dependent Drug Toxicity 🧪",
         
         description: "This experimental design was part of a larger bioassay to evaluate the toxic effects of a drug administered intravitreally at varying dosages.",
         section: "Posts",
