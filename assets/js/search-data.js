@@ -66,9 +66,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/hybrid-inpainting/";
           
         },
-      },{id: "post-a-post-with-math",
+      },{id: "post-sampling-methods",
         
-          title: "a post with math",
+          title: "Sampling Methods",
         
         description: "an example of a blog post with some math",
         section: "Posts",
