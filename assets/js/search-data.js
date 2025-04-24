@@ -70,7 +70,7 @@ ninja.data = [{
         
           title: "Sampling Methods",
         
-        description: "an example of a blog post with some math",
+        description: "Assuming that there are 5 defective equipment in carton of 200, what is the size of a sample that would provide x% of finding one in a random draw?",
         section: "Posts",
         handler: () => {
           
