@@ -52,7 +52,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-04-23-image-restoration/";
+            window.location.href = "/blog/2025/2025-04-22-image-restoration/";
           
         },
       },{id: "post-hybrid-deep-learning-model-for-inpainting",
@@ -97,17 +97,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-a-post-with-math",
-        
-          title: "a post with math",
-        
-        description: "What makes two models (curves) identical?",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/model-comparison/";
           
         },
       },{id: "news-a-simple-inline-announcement",
