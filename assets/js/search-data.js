@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/2025-04-22-image-restoration/";
           
         },
+      },{id: "post-model-comparison",
+        
+          title: "Model Comparison",
+        
+        description: "What makes two models identical?",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/model-comparison/";
+          
+        },
       },{id: "post-hybrid-deep-learning-model-for-inpainting",
         
           title: "Hybrid Deep-Learning Model for Inpainting",
