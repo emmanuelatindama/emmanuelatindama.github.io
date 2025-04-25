@@ -55,6 +55,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/2025-04-22-image-restoration/";
           
         },
+      },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2018-12-22-distill/";
+          
+        },
       },{id: "post-model-comparison",
         
           title: "Model Comparison",
