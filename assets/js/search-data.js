@@ -44,15 +44,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-",
+        },{id: "post-total-variation-for-restoration-of-ebsd-maps",
         
-          title: "",
+          title: "Total Variation for Restoration of EBSD Maps",
         
-        description: "",
+        description: "In this blog, I decribe a Total Variation model for denoising microscopy data for materials. It is an old model that has been repurposed and proposed for this work.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-04-22-image-restoration/";
+            window.location.href = "/blog/2025/image-restoration/";
           
         },
       },{id: "post-model-comparison",
@@ -119,17 +119,6 @@ ninja.data = [{
         handler: () => {
           
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
-          
-        },
-      },{id: "post-test-total-variation-for-restoration-of-ebsd-maps",
-        
-          title: "Test - Total Variation for Restoration of EBSD Maps",
-        
-        description: "In this blog, I decribe a Total Variation model for denoising microscopy data for materials. It is an old model that has been repurposed and proposed for this work.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/distill/";
           
         },
       },{id: "news-a-simple-inline-announcement",
