@@ -44,44 +44,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-total-variation-for-restoration-of-ebsd-maps",
+        },{id: "post-",
         
-          title: "Total Variation for Restoration of EBSD Maps",
+          title: "",
         
-        description: "In this blog, I decribe a Total Variation model for denoising microscopy data for materials. It is an old model that has been repurposed and proposed for this work.",
+        description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/image-restoration/";
+            window.location.href = "/blog/2025/2025-04-26-model-comparison/";
           
         },
-      },{id: "post-model-comparison",
+      },{id: "post-sampling-secrets-how-statisticians-find-the-truth",
         
-          title: "Model Comparison",
+          title: "Sampling Secrets -- How Statisticians Find the Truth",
         
-        description: "What makes two models identical?",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/model-comparison/";
-          
-        },
-      },{id: "post-hybrid-deep-learning-model-for-inpainting",
-        
-          title: "Hybrid Deep-Learning Model for Inpainting",
-        
-        description: "In this blog, I decribe a model for inpainting microscopy data for materials. It&#39;s direct application is in material science, although the technique is applicaple to all types of data, subject to a change in the loss function and similarity metric.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/hybrid-inpainting/";
-          
-        },
-      },{id: "post-sampling-methods",
-        
-          title: "Sampling Methods",
-        
-        description: "Assuming that there are 5 defective equipment in carton of 200, what is the size of a sample that would provide x% of finding one in a random draw?",
+        description: "Assuming that there are 5 defective equipment in a delivery of 200, what is the size of a sample that would provide x% of finding one of them in a random draw? Discover the right strategies for selecting samples that accurately represent your data.",
         section: "Posts",
         handler: () => {
           
@@ -97,6 +75,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/design-of-experiments/";
+          
+        },
+      },{id: "post-total-variation-for-restoration-of-ebsd-maps",
+        
+          title: "Total Variation for Restoration of EBSD Maps",
+        
+        description: "In this blog, I decribe a Total Variation model for denoising microscopy data for materials. It is an old model that has been repurposed and proposed for this work.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/image-restoration/";
+          
+        },
+      },{id: "post-hybrid-deep-learning-model-for-inpainting",
+        
+          title: "Hybrid Deep-Learning Model for Inpainting",
+        
+        description: "In this blog, I decribe a model for inpainting microscopy data for materials. It&#39;s direct application is in material science, although the technique is applicaple to all types of data, subject to a change in the loss function and similarity metric.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/hybrid-inpainting/";
           
         },
       },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
