@@ -59,7 +59,7 @@ ninja.data = [{
         
           title: "Sampling Secrets -- How Statisticians Find the Truth",
         
-        description: "Assuming that there are 5 defective equipment in a delivery of 200, what is the size of a sample that would provide x% of finding one of them in a random draw? Discover the right strategies for selecting samples that accurately represent your data.",
+        description: "Discover the right strategies for selecting samples that accurately represent your data.",
         section: "Posts",
         handler: () => {
           
