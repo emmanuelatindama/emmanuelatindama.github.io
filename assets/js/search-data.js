@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Courses Taught",
+          description: "The following courses were taught over several semesters. They will only be organized by course [not by semester, year, or college] since some may have been taught in different semesters.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
