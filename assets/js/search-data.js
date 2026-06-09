@@ -9,19 +9,19 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
+  },{id: "nav-about",
+          title: "about",
+          description: "A concise narrative summary of my background and research direction.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/";
+          },
+        },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
-          },
-        },{id: "nav-about-me",
-          title: "about me",
-          description: "A concise narrative summary of my background and research direction.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/about/";
           },
         },{id: "nav-publications",
           title: "publications",
@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "A curated list of GitHub profiles and repositories related to my projects and collaborations.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
@@ -46,7 +46,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "The following courses were taught over several semesters. They will only be organized by course [not by semester, year, or college] since some may have been taught in different semesters.",
+          description: "Courses taught across statistics, data science, and applied analytics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
