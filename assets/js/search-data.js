@@ -95,16 +95,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/image-restoration/";
           
         },
-      },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+      },{id: "news-started-my-most-recent-role-change-in-dec-2025-as-a-cmc-statistician-supporting-biopharmaceutical-manufacturing-and-regulatory-decision-making",
+          title: 'Started my most recent role change in Dec 2025 as a CMC Statistician...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-current-hobby-focus-building-robotics-and-microelectronics-prototypes-using-raspberry-pi-kits",
+          title: 'Current hobby focus: building robotics and microelectronics prototypes using Raspberry Pi kits.',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-current-research-and-development-advancing-ai-capability-for-statistical-analysis-automation-and-streamlining-collaboration-with-stakeholders-for-regulatory-filings",
+          title: 'Current research and development: advancing AI capability for statistical analysis automation and streamlining...',
+          description: "",
+          section: "News",},{id: "news-published-a-new-post-eac-estimation-and-ddr-framework-focused-on-coherent-equivalence-assessment-and-decision-diagnostics",
+          title: 'Published a new post: EAC Estimation and DDR Framework, focused on coherent equivalence...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
