@@ -21,9 +21,9 @@
 <body>
   <div id="chart"></div>
   <script>
-    const x = [0.02, 0.05, 0.10, 0.15, 0.20];
-    const edge = [0.30, 0.55, 0.71, 0.79, 0.84];
-    const noise = [0.18, 0.33, 0.50, 0.62, 0.74];
+    const x = [0.02, 0.04, 0.06, 0.08, 0.10, 0.12, 0.15, 0.18, 0.20, 0.24, 0.28];
+    const edge = [0.24, 0.36, 0.48, 0.58, 0.67, 0.73, 0.79, 0.82, 0.84, 0.86, 0.87];
+    const noise = [0.12, 0.22, 0.32, 0.41, 0.50, 0.57, 0.66, 0.72, 0.76, 0.81, 0.84];
 
     const data = [
       {
@@ -55,7 +55,7 @@
     const layout = {
       title: "Edge Preservation vs Noise Removal Tradeoff",
       xaxis: { title: "Effective smoothing level" },
-      yaxis: { title: "Normalized score", range: [0, 1] },
+      yaxis: { title: "Normalized score", range: [0, 0.95] },
       margin: { l: 60, r: 24, t: 56, b: 56 },
       updatemenus: [
         {

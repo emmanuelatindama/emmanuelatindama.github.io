@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #ffffff;
+    }
+
+    #chart {
+      width: 100%;
+      height: 100vh;
+      min-height: 420px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chart"></div>
+  <script>
+    const labels = ["tau0 (Control)", "tau1", "tau2", "tau3", "tau4"];
+    const x = [0, 1, 2, 3, 4];
+    const y = [7.2, 7.9, 9.8, 12.5, 15.7];
+
+    const data = [
+      {
+        x: [x[0]],
+        y: [y[0]],
+        mode: "lines+markers",
+        name: "Mean Y level",
+        line: { color: "#d35400", width: 3 },
+        marker: { size: 9, color: "#d35400" }
+      }
+    ];
+
+    const frames = x.map((_, i) => ({
+      name: `f${i + 1}`,
+      data: [{ x: x.slice(0, i + 1), y: y.slice(0, i + 1) }]
+    }));
+
+    const layout = {
+      title: "Dose-Response Trend for Toxicity Marker Y",
+      xaxis: {
+        title: "Dose group",
+        tickmode: "array",
+        tickvals: x,
+        ticktext: labels
+      },
+      yaxis: {
+        title: "Y concentration (pg/ml)",
+        range: [6.5, 16.5]
+      },
+      margin: { l: 70, r: 20, t: 60, b: 85 },
+      updatemenus: [
+        {
+          type: "buttons",
+          showactive: false,
+          x: 0,
+          y: 1.17,
+          buttons: [
+            {
+              label: "Play",
+              method: "animate",
+              args: [null, { frame: { duration: 700, redraw: true }, transition: { duration: 300 }, fromcurrent: true }]
+            },
+            {
+              label: "Pause",
+              method: "animate",
+              args: [[null], { mode: "immediate", frame: { duration: 0, redraw: false }, transition: { duration: 0 } }]
+            },
+            {
+              label: "Reset",
+              method: "animate",
+              args: [["f1"], { mode: "immediate", frame: { duration: 0, redraw: true }, transition: { duration: 0 } }]
+            }
+          ]
+        }
+      ]
+    };
+
+    Plotly.newPlot("chart", data, layout, { responsive: true }).then(() => {
+      Plotly.addFrames("chart", frames);
+      Plotly.animate("chart", null, {
+        frame: { duration: 700, redraw: true },
+        transition: { duration: 300 },
+        fromcurrent: true
+      });
+    });
+  </script>
+</body>
+</html>
