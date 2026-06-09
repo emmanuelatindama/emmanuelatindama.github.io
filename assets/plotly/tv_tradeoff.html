@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #ffffff;
+    }
+
+    #chart {
+      width: 100%;
+      height: 100vh;
+      min-height: 420px;
+    }
+  </style>
+</head>
+<body>
+  <div id="chart"></div>
+  <script>
+    const x = [0.02, 0.05, 0.10, 0.15, 0.20];
+    const edge = [0.30, 0.55, 0.71, 0.79, 0.84];
+    const noise = [0.18, 0.33, 0.50, 0.62, 0.74];
+
+    const data = [
+      {
+        x: [x[0]],
+        y: [edge[0]],
+        mode: "lines+markers",
+        name: "Edge preservation",
+        line: { color: "#1f77b4", width: 3 },
+        marker: { size: 9 }
+      },
+      {
+        x: [x[0]],
+        y: [noise[0]],
+        mode: "lines+markers",
+        name: "Noise removal",
+        line: { color: "#e67e22", width: 3 },
+        marker: { size: 9 }
+      }
+    ];
+
+    const frames = x.map((_, i) => ({
+      name: `s${i + 1}`,
+      data: [
+        { x: x.slice(0, i + 1), y: edge.slice(0, i + 1) },
+        { x: x.slice(0, i + 1), y: noise.slice(0, i + 1) }
+      ]
+    }));
+
+    const layout = {
+      title: "Edge Preservation vs Noise Removal Tradeoff",
+      xaxis: { title: "Effective smoothing level" },
+      yaxis: { title: "Normalized score", range: [0, 1] },
+      margin: { l: 60, r: 24, t: 56, b: 56 },
+      updatemenus: [
+        {
+          type: "buttons",
+          showactive: false,
+          x: 0,
+          y: 1.15,
+          buttons: [
+            {
+              label: "Play",
+              method: "animate",
+              args: [null, { frame: { duration: 600, redraw: true }, transition: { duration: 250 }, fromcurrent: true }]
+            },
+            {
+              label: "Reset",
+              method: "animate",
+              args: [["s1"], { mode: "immediate", frame: { duration: 0, redraw: true }, transition: { duration: 0 } }]
+            }
+          ]
+        }
+      ]
+    };
+
+    Plotly.newPlot("chart", data, layout, { responsive: true }).then(() => {
+      Plotly.addFrames("chart", frames);
+      Plotly.animate("chart", null, {
+        frame: { duration: 600, redraw: true },
+        transition: { duration: 250 },
+        fromcurrent: true
+      });
+    });
+  </script>
+</body>
+</html>

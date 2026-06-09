@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "EAC Estimation with the DDR Framework",
         
-        description: "A practical guide to estimating Equivalence Acceptance Criteria (EAC) using Decisive-Decision Rate diagnostics.",
+        description: "Section-by-section summary of the DDR paper for calibrating Equivalence Acceptance Criteria in comparability studies.",
         section: "Posts",
         handler: () => {
           
