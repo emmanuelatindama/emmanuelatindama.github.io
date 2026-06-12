@@ -55,7 +55,7 @@ ninja.data = [{
         
           title: "EAC Estimation with the DDR Framework",
         
-        description: "Section-by-section summary of the DDR paper for calibrating Equivalence Acceptance Criteria in comparability studies.",
+        description: "A simulation-based framework that quantifies and calibrates equivalence acceptance criteria (EAC) in pharmaceutical comparability studies — with an interactive four-method case study.",
         section: "Posts",
         handler: () => {
           
