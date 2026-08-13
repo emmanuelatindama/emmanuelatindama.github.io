@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: A curated list of GitHub profiles and repositories related to my projects and collaborations.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 GitHub profile: <a href="https://github.com/emmanuelatindama?tab=repositories">github.com/emmanuelatindama</a>

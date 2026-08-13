@@ -5,6 +5,7 @@ description: when expected value lies to you — interactive simulations of mult
 img: assets/img/exploring-probability.png
 importance: 1
 category: work
+github: https://github.com/emmanuelatindama/exploring-probability
 ---
 
 **[Open the interactive demo →](https://emmanuelatindama.github.io/exploring-probability/)**
@@ -40,8 +41,17 @@ the number of players. Nothing is precomputed.
 
 - **Ergodic coin flip** — the paradox above, as quantile bands over a log wealth axis
 - **Kelly bet sizing** — long-run growth rate against stake size, in closed form
-- *Gambler's ruin*, *St. Petersburg paradox*, and an *iterated prisoner's dilemma*
-  tournament are next
+- **Gambler's ruin** — fixed-dollar bets against an absorbing barrier at \$0, where
+  the strange result is that a house edge makes *bolder* betting safer
+- **St Petersburg paradox** — an expectation that diverges, drawn as the row of
+  identical \$0.50 bars that never stops adding up
+- **Iterated prisoner's dilemma** — five strategies in a round robin, then
+  replicator dynamics; always-defect wins every match it plays and still loses
+
+Nine more are declared on the page as a roadmap — Monty Hall, Parrondo's paradox,
+Shannon's demon, insurance and risk pooling, base rates, the birthday problem, the
+secretary problem, the two-envelope paradox and optional stopping — each with the
+story of where it came from.
 
 ### How it's built
 
@@ -50,13 +60,16 @@ Pages. The part I cared most about is that the mathematics is *checked* rather
 than asserted:
 
 - A Python lab (`numpy`/`scipy`) holds the closed forms — exact expectations,
-  binomial quantiles, tail probabilities, and the Kelly optimum — and is the
-  single source of truth.
+  binomial quantiles, tail probabilities, hitting probabilities against an
+  absorbing barrier, and the Kelly optimum — and is the single source of truth.
 - Those closed forms are verified against a 400,000-path Monte Carlo, and any
-  optimum against a brute-force sweep.
+  optimum against a brute-force sweep: 93 checks. The prisoner's dilemma scores
+  are computed exactly, by dynamic programming over each pair's 16-state joint
+  history rather than by simulation, so they hold even with a random player and
+  a trembling hand.
 - The browser engine mirrors the Python, down to a seeded PRNG that matches
   **bit-for-bit**, so a given seed reproduces identical trajectories in both
-  languages. A test page asserts all of this in 108 checks.
+  languages. A test page asserts all of this in 383 checks.
 
 One consequence worth noting: the sample mean of the simulated players usually
 lands nowhere near the exact expected value (\~\$788 against \$13,150 at the
