@@ -185,6 +185,20 @@ close yourself.
     <a class="ep-go" href="{{ '/exploring-probability/#insurance' | relative_url }}">Check out insurance and risk pooling →</a>
   </div>
 
+  <div class="ep-card">
+    <h3>Nine winners out of ten</h3>
+    <p>
+      Sell a put below a recent dip and you get paid either way — keep the
+      premium if the stock recovers, or buy the shares at a price you already
+      liked if it doesn't. Get assigned, then sell a call above the next
+      high: paid again, either way. Traders call the repeating cycle "the
+      wheel," and on any single trade it wins far more often than it loses —
+      nine times out of ten is not an exaggeration. Whether that beats simply
+      holding the stock turns on a number the win rate never shows you.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#the-wheel' | relative_url }}">Check out the wheel strategy →</a>
+  </div>
+
 </div>
 
 <p class="ep-soon">
