@@ -146,11 +146,49 @@ close yourself.
     <a class="ep-go" href="{{ '/exploring-probability/#prisoners-dilemma' | relative_url }}">Check out the iterated prisoner's dilemma →</a>
   </div>
 
+  <div class="ep-card">
+    <h3>Should you switch?</h3>
+    <p>
+      Three doors, one prize. You pick one; the host, who knows exactly
+      where the prize is, opens another to show you a goat, then offers you
+      the switch. Nearly everyone's gut says it can't matter — two doors
+      left, fifty-fifty. A magazine columnist said switch, and win two times
+      in three. Ten thousand readers, many with doctorates, wrote in to tell
+      her she was wrong. She wasn't.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#monty-hall' | relative_url }}">Check out Monty Hall →</a>
+  </div>
+
+  <div class="ep-card">
+    <h3>Money from a stock going nowhere</h3>
+    <p>
+      Split your money evenly between a stock and cash. The stock ends the
+      year exactly where it started — up as often as down, no trend at all.
+      Rebalance back to half and half every so often, selling a little after
+      it rises and buying a little after it falls, and you finish ahead
+      anyway. Nothing about the stock changed; what you harvested was its
+      volatility, not its direction.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#shannon-demon' | relative_url }}">Check out Shannon's demon →</a>
+  </div>
+
+  <div class="ep-card">
+    <h3>A bad bet both sides are right to take</h3>
+    <p>
+      The premium you pay for insurance is always more than the payout is
+      worth on average — that's how insurers stay solvent. A player who
+      only cares about expected value should never buy a policy. Everyone
+      does anyway, and it isn't a mistake: there's a real band of premiums
+      where the buyer and the seller both come out ahead in the long run,
+      and expected value alone cannot see it.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#insurance' | relative_url }}">Check out insurance and risk pooling →</a>
+  </div>
+
 </div>
 
 <p class="ep-soon">
-  Queued up next, and visible as a roadmap inside the app itself: Monty Hall,
-  Parrondo's paradox, Shannon's demon, insurance and risk pooling, base rates
-  and the 95% test, the birthday problem, the secretary problem, the
-  two-envelope paradox, and optional stopping.
+  Queued up next, and visible as a roadmap inside the app itself: Parrondo's
+  paradox, base rates and the 95% test, the birthday problem, the secretary
+  problem, the two-envelope paradox, and optional stopping.
 </p>
