@@ -115,8 +115,8 @@ ninja.data = [{
           title: 'Latest blog post: EAC Estimation with the DDR Framework (Jun 09, 2026).',
           description: "",
           section: "News",},{id: "projects-exploring-probability",
-          title: 'exploring probability',
-          description: "when expected value lies to you — interactive simulations of multiplicative betting games",
+          title: 'Exploring Probability',
+          description: "Interactive simulations of games where the average outcome and the typical outcome disagree.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/exploring_probability/";
             },},{
