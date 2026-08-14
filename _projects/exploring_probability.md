@@ -2,8 +2,10 @@
 layout: page
 title: Exploring Probability
 description: Interactive simulations of games where the average outcome and the typical outcome disagree.
+img: assets/img/exploring-probability.png
 importance: 1
 category: work
+github: https://github.com/emmanuelatindama/exploring-probability
 _styles: >
   .ep-lede p {
     font-size: 1.05rem;

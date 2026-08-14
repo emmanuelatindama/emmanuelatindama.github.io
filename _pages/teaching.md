@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Courses taught across statistics, data science, and applied analytics.
 nav: true
-nav_order: 6
+nav_order: 7
 ---
 
 Course materials are available upon request.
