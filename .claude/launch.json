@@ -6,6 +6,12 @@
       "runtimeExecutable": "bundle",
       "runtimeArgs": ["exec", "jekyll", "serve", "--port", "4000", "--host", "127.0.0.1"],
       "port": 4000
+    },
+    {
+      "name": "exploring-probability",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4001", "--directory", "C:/Users/atindame/Downloads/exploring-probability"],
+      "port": 4001
     }
   ]
 }
