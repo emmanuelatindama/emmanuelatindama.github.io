@@ -67,7 +67,7 @@ whole distribution of futures, most of which you will never see — and summarie
 leak. An average assumes the outcomes add up: that the good years and the bad
 years sit side by side and cancel. Real games rarely oblige. Outcomes
 <em>multiply</em>, so one bad round scales everything that comes after it.
-Losses <em>absorb</em>, so $0 is a place you can arrive at but never leave.
+Losses <em>absorb</em>, so \$0 is a place you can arrive at but never leave.
 Tails run off toward <em>infinity</em>, so the average ends up carried entirely
 by outcomes that will never actually happen to you.
 
@@ -112,12 +112,12 @@ close yourself.
   <div class="ep-card">
     <h3>Nearly fair is not fair</h3>
     <p>
-      You have $100, the house has millions, and the coin is very nearly fair —
+      You have \$100, the house has millions, and the coin is very nearly fair —
       49 wins for every 51 losses, say. Surely a coin that close to even gives
       you a fighting chance of doubling up before you bust? Now make the coin
       perfectly fair and take away your target, so you simply play forever:
       what are your chances then? And here is the part nobody guesses — with
-      the odds against you, is it safer to bet $1 a round, or $50?
+      the odds against you, is it safer to bet \$1 a round, or \$50?
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#gamblers-ruin' | relative_url }}">Check out gambler's ruin →</a>
   </div>
@@ -130,7 +130,7 @@ close yourself.
       it is infinite. A ticket of unlimited value, on sale. What would you pay
       for it? Almost nobody will go past a few dollars, and almost nobody can
       say why they are right to refuse. They are right. Half of all games pay
-      exactly $1.
+      exactly \$1.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#st-petersburg' | relative_url }}">Check out the St Petersburg paradox →</a>
   </div>
@@ -190,15 +190,14 @@ close yourself.
   <div class="ep-card">
     <h3>Paid either way</h3>
     <p>
-      Sell a put below a recent dip and you get paid whichever way it goes —
-      keep the premium if the stock recovers, or buy the shares at a price you
-      already liked if it doesn't. Take delivery, keep them for good, and sell
-      a call at every new high: paid again. Traders call the cycle "the
-      wheel," and getting paid on both sides of every move sounds like it must
-      beat simply owning the stock. Run it on what the S&amp;P, Apple or the
-      Nikkei actually did since 2009 and it sometimes does, sometimes loses
-      badly — and the win rate on the individual trades tells you nothing
-      about which.
+      Sell a put and you get paid whichever way it goes — keep the premium if
+      the stock stays up, or buy it at a discount if it falls. Own the shares,
+      sell a call against them, and get called away, and you go right back to
+      selling puts. Traders call the cycle "the wheel," and getting paid on
+      both sides of every move sounds like it must beat simply owning the
+      stock. Run it on what the S&amp;P, Apple or the Nikkei actually did
+      since 2009 and it sometimes does, sometimes loses badly — and the win
+      rate on the individual trades tells you nothing about which.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#the-wheel' | relative_url }}">Check out the wheel strategy →</a>
   </div>
