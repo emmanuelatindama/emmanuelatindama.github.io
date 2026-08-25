@@ -58,15 +58,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-eac-estimation-with-the-ddr-framework",
+        },{id: "post-equivalence-concordance-rate-ecr-calibrating-equivalence-acceptance-criteria",
         
-          title: "EAC Estimation with the DDR Framework",
+          title: "Equivalence Concordance Rate (ECR): Calibrating Equivalence Acceptance Criteria",
         
-        description: "A simulation-based framework that quantifies and calibrates equivalence acceptance criteria (EAC) in pharmaceutical comparability studies — with an interactive four-method case study.",
+        description: "A simulation-based framework that scores how coherently any equivalence margin makes decisions — with a four-method case study over 10,368 scenarios, a closed-form off-center Ppk margin, and a worked example on real manufacturing data.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/eac-estimation-ddr-framework/";
+            window.location.href = "/blog/2026/ecr-equivalence-concordance-rate/";
           
         },
       },{id: "post-sampling-secrets-how-statisticians-find-the-truth",
@@ -111,8 +111,8 @@ ninja.data = [{
           section: "News",},{id: "news-current-research-and-development-advancing-ai-capability-for-statistical-analysis-automation-and-streamlining-collaboration-with-stakeholders-for-regulatory-filings",
           title: 'Current research and development: advancing AI capability for statistical analysis automation and streamlining...',
           description: "",
-          section: "News",},{id: "news-latest-blog-post-eac-estimation-with-the-ddr-framework-jun-09-2026",
-          title: 'Latest blog post: EAC Estimation with the DDR Framework (Jun 09, 2026).',
+          section: "News",},{id: "news-latest-blog-post-equivalence-concordance-rate-ecr-calibrating-equivalence-acceptance-criteria-aug-25-2026",
+          title: 'Latest blog post: Equivalence Concordance Rate (ECR): Calibrating Equivalence Acceptance Criteria (Aug 25,...',
           description: "",
           section: "News",},{id: "projects-exploring-probability",
           title: 'Exploring Probability',
