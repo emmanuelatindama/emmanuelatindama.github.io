@@ -202,10 +202,82 @@ close yourself.
     <a class="ep-go" href="{{ '/exploring-probability/#the-wheel' | relative_url }}">Check out the wheel strategy →</a>
   </div>
 
-</div>
+  <div class="ep-card">
+    <h3>Two losing games, mixed into a winner</h3>
+    <p>
+      Play either game on its own, long enough, and you go broke — both are
+      built to guarantee it. Alternate between them and your capital climbs.
+      It isn't an accounting trick: Juan Parrondo built it out of the same
+      physics as Feynman's ratchet, rectifying random jiggling into directed
+      motion by switching the rules at the right moments. "Losing" turns out
+      not to be a property a game carries around by itself.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#parrondo' | relative_url }}">Check out Parrondo's paradox →</a>
+  </div>
 
-<p class="ep-soon">
-  Queued up next, and visible as a roadmap inside the app itself: Parrondo's
-  paradox, base rates and the 95% test, the birthday problem, the secretary
-  problem, the two-envelope paradox, and optional stopping.
-</p>
+  <div class="ep-card">
+    <h3>A 95% accurate test, and a 2% chance you're sick</h3>
+    <p>
+      A test for a disease is 95% accurate. Yours comes back positive. Staff
+      and students at Harvard Medical School were asked the odds you're
+      actually sick in 1978; the most popular answer was 95%. The real
+      answer is about 2%. The missing number is how rare the disease was to
+      begin with — ask the same question in a headcount of a thousand people
+      instead of a percentage, and most people get it right immediately.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#base-rates' | relative_url }}">Check out base rates and the 95% test →</a>
+  </div>
+
+  <div class="ep-card">
+    <h3>Twenty-three people, better than even odds</h3>
+    <p>
+      How many people need to be in a room before two probably share a
+      birthday? Intuition reaches for 183 — half of 365. The actual answer
+      is 23, because the comparison is every pair against every pair, not
+      you against everyone else, and 23 people already make 253 of them.
+      Cryptographers took the identical arithmetic and turned it into a way
+      of breaking hash functions.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#birthday' | relative_url }}">Check out the birthday problem →</a>
+  </div>
+
+  <div class="ep-card">
+    <h3>Reject the first 37%, then take the next record</h3>
+    <p>
+      Candidates arrive one at a time. Accept or reject each on the spot —
+      rejection is final — and you want the single best one. Kepler spent
+      two years interviewing eleven candidates for his second wife before
+      the actual mathematics arrived three centuries later: skip the first
+      37% no matter how good they look, then take the first one better than
+      all of them. Nothing does better, and it wins about 37% of the time.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#secretary' | relative_url }}">Check out the secretary problem →</a>
+  </div>
+
+  <div class="ep-card">
+    <h3>Whatever you find, swapping looks 25% better</h3>
+    <p>
+      Two envelopes; one holds twice what the other does. You open yours and
+      find $100 — the other holds $50 or $200, equally likely, so swapping
+      looks worth $125. The same argument works for any amount you might
+      have found, including before you've opened anything, which means you
+      should swap forever. The error hides in a prior nobody bothered to
+      write down — write down a real one and the argument falls apart.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#two-envelopes' | relative_url }}">Check out the two-envelope paradox →</a>
+  </div>
+
+  <div class="ep-card">
+    <h3>Keep testing until it works</h3>
+    <p>
+      Run an experiment. If it isn't significant yet, collect a little more
+      data and test again. This sounds like diligence; it is a machine for
+      manufacturing false positives. A nominal 5% error rate can pass 60%
+      once you're allowed to keep looking — the same mathematics as
+      gambler's ruin, with the p-value as the random walk and significance
+      as a barrier that keeps retreating just out of reach.
+    </p>
+    <a class="ep-go" href="{{ '/exploring-probability/#optional-stopping' | relative_url }}">Check out optional stopping →</a>
+  </div>
+
+</div>
