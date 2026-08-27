@@ -62,7 +62,7 @@ ninja.data = [{
         
           title: "Equivalence Concordance Rate (ECR): Calibrating Equivalence Acceptance Criteria",
         
-        description: "A simulation-based framework that scores how coherently any equivalence margin makes decisions — with a four-method case study over 10,368 scenarios, a closed-form off-center Ppk margin, and a worked example on real manufacturing data.",
+        description: "A simulation-based framework that scores how coherently any equivalence margin makes decisions, turning margin choice from a matter of tradition into one of quantitative evidence.",
         section: "Posts",
         handler: () => {
           
