@@ -85,12 +85,9 @@ close yourself.
   <div class="ep-card">
     <h3>Too good to be true</h3>
     <p>
-      Have you ever been offered a game that seemed too good to be true? Heads,
-      your money grows by 50%; tails, you only lose 40%. The arithmetic is not
-      in dispute — that is +5% a round, on average, forever, and the house is
-      apparently handing out free money. Sit down and play it and you go broke
-      almost surely. Wait just a minute. Both of those sentences are true at
-      the same time, and the reason they can be is the whole subject.
+      Heads pays +50%, tails costs 40% — that's +5% a round forever, in
+      expectation. Play it yourself and you go broke almost surely. Both are
+      true at once, and reconciling them is the whole subject.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#ergodic-coin' | relative_url }}">Check out the ergodic coin flip →</a>
   </div>
@@ -98,13 +95,9 @@ close yourself.
   <div class="ep-card">
     <h3>How much to bet</h3>
     <p>
-      Did you know that with the odds held exactly fixed, the size of your bets
-      alone decides whether you walk away a winner or a loser? Say your team
-      wins x% of the time and loses the rest. You are going to back them week
-      after week, out of the same pot. How much of it should go in each week to
-      be ahead at the end of the season? Too little and you crawl; too much and
-      the swings eat you alive — and the crossover point is a formula, not a
-      feeling.
+      With the odds fixed, bet size alone decides whether you finish ahead or
+      broke. Bet too little and you barely grow; too much and swings wipe you
+      out. The right size is a formula, not a feeling.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#kelly' | relative_url }}">Check out Kelly bet sizing →</a>
   </div>
@@ -112,12 +105,10 @@ close yourself.
   <div class="ep-card">
     <h3>Nearly fair is not fair</h3>
     <p>
-      You have \$100, the house has millions, and the coin is very nearly fair —
-      49 wins for every 51 losses, say. Surely a coin that close to even gives
-      you a fighting chance of doubling up before you bust? Now make the coin
-      perfectly fair and take away your target, so you simply play forever:
-      what are your chances then? And here is the part nobody guesses — with
-      the odds against you, is it safer to bet \$1 a round, or \$50?
+      With $100 against a house with millions, even a nearly fair coin ruins
+      you almost certainly — and a perfectly fair one ruins you with
+      certainty. Against a losing edge, betting bigger is safer than betting
+      small.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#gamblers-ruin' | relative_url }}">Check out gambler's ruin →</a>
   </div>
@@ -125,12 +116,9 @@ close yourself.
   <div class="ep-card">
     <h3>A ticket worth infinity</h3>
     <p>
-      A casino tosses a coin until it comes up tails, and the pot doubles on
-      every toss that isn't. Work out the expected payout and it is not large —
-      it is infinite. A ticket of unlimited value, on sale. What would you pay
-      for it? Almost nobody will go past a few dollars, and almost nobody can
-      say why they are right to refuse. They are right. Half of all games pay
-      exactly \$1.
+      A coin is tossed until it lands tails, doubling the pot each time it
+      doesn't. The expected payout is infinite, yet almost nobody would pay
+      more than a few dollars — and they're right not to.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#st-petersburg' | relative_url }}">Check out the St Petersburg paradox →</a>
   </div>
@@ -138,12 +126,10 @@ close yourself.
   <div class="ep-card">
     <h3>Winning by never winning</h3>
     <p>
-      Two suspects, two separate rooms. Betraying the other pays better
-      whatever they choose — so both betray, and both end up worse off than if
-      they had kept quiet. That is one round. Now play it hundreds of times
-      against every kind of opponent, from the relentless defector to the saint
-      who never retaliates. Which one comes out on top? The answer is four
-      lines long, and it never once outscores an opponent.
+      Betraying beats cooperating no matter what the other player does, so
+      both betray and both lose. Play it hundreds of times against every
+      strategy imaginable, and the winner is four lines long — and never once
+      outscores an opponent.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#prisoners-dilemma' | relative_url }}">Check out the iterated prisoner's dilemma →</a>
   </div>
@@ -151,12 +137,10 @@ close yourself.
   <div class="ep-card">
     <h3>Should you switch?</h3>
     <p>
-      Three doors, one prize. You pick one; the host, who knows exactly
-      where the prize is, opens another to show you a goat, then offers you
-      the switch. Nearly everyone's gut says it can't matter — two doors
-      left, fifty-fifty. A magazine columnist said switch, and win two times
-      in three. Ten thousand readers, many with doctorates, wrote in to tell
-      her she was wrong. She wasn't.
+      Three doors, one prize; the host, who knows where it is, opens a goat
+      and offers a switch. It looks like fifty-fifty. It isn't: switching
+      wins two times out of three, and thousands of readers refused to
+      believe it.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#monty-hall' | relative_url }}">Check out Monty Hall →</a>
   </div>
@@ -164,12 +148,10 @@ close yourself.
   <div class="ep-card">
     <h3>Money from a stock going nowhere</h3>
     <p>
-      Split your money evenly between a stock and cash. The stock ends the
-      year exactly where it started — up as often as down, no trend at all.
-      Rebalance back to half and half every so often, selling a little after
-      it rises and buying a little after it falls, and you finish ahead
-      anyway. Nothing about the stock changed; what you harvested was its
-      volatility, not its direction.
+      Split your money between a stock and cash. The stock ends the year
+      exactly where it started, yet regularly rebalancing back to half and
+      half leaves you ahead anyway — you've harvested its volatility, not its
+      direction.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#shannon-demon' | relative_url }}">Check out Shannon's demon →</a>
   </div>
@@ -177,12 +159,10 @@ close yourself.
   <div class="ep-card">
     <h3>A bad bet both sides are right to take</h3>
     <p>
-      The premium you pay for insurance is always more than the payout is
-      worth on average — that's how insurers stay solvent. A player who
-      only cares about expected value should never buy a policy. Everyone
-      does anyway, and it isn't a mistake: there's a real band of premiums
-      where the buyer and the seller both come out ahead in the long run,
-      and expected value alone cannot see it.
+      Insurance premiums always exceed the expected payout, so buyers who
+      maximize expected value should never buy any. Yet a band of premiums
+      exists where both buyer and seller come out ahead — expected value
+      alone misses it.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#insurance' | relative_url }}">Check out insurance and risk pooling →</a>
   </div>
@@ -190,12 +170,10 @@ close yourself.
   <div class="ep-card">
     <h3>Two losing games, mixed into a winner</h3>
     <p>
-      Play either game on its own, long enough, and you go broke — both are
-      built to guarantee it. Alternate between them and your capital climbs.
-      It isn't an accounting trick: Juan Parrondo built it out of the same
-      physics as Feynman's ratchet, rectifying random jiggling into directed
-      motion by switching the rules at the right moments. "Losing" turns out
-      not to be a property a game carries around by itself.
+      Two games, each individually guaranteed to lose. Alternate between them
+      and your capital climbs. It's not a trick — Juan Parrondo built it from
+      the same physics as Feynman's ratchet: "losing" isn't a property a game
+      carries by itself.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#parrondo' | relative_url }}">Check out Parrondo's paradox →</a>
   </div>
@@ -203,12 +181,10 @@ close yourself.
   <div class="ep-card">
     <h3>A 95% accurate test, and a 2% chance you're sick</h3>
     <p>
-      A test for a disease is 95% accurate. Yours comes back positive. Staff
-      and students at Harvard Medical School were asked the odds you're
-      actually sick in 1978; the most popular answer was 95%. The real
-      answer is about 2%. The missing number is how rare the disease was to
-      begin with — ask the same question in a headcount of a thousand people
-      instead of a percentage, and most people get it right immediately.
+      A 95%-accurate test comes back positive. Harvard staff and students,
+      asked the odds you're actually sick, mostly guessed 95%. The real
+      answer is about 2% — the missing piece is how rare the disease was to
+      begin with.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#base-rates' | relative_url }}">Check out base rates and the 95% test →</a>
   </div>
@@ -217,11 +193,8 @@ close yourself.
     <h3>Twenty-three people, better than even odds</h3>
     <p>
       How many people need to be in a room before two probably share a
-      birthday? Intuition reaches for 183 — half of 365. The actual answer
-      is 23, because the comparison is every pair against every pair, not
-      you against everyone else, and 23 people already make 253 of them.
-      Cryptographers took the identical arithmetic and turned it into a way
-      of breaking hash functions.
+      birthday? Intuition says 183; the real answer is 23, because every pair
+      is compared against every other pair — 253 comparisons, not one.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#birthday' | relative_url }}">Check out the birthday problem →</a>
   </div>
@@ -229,12 +202,9 @@ close yourself.
   <div class="ep-card">
     <h3>Reject the first 37%, then take the next record</h3>
     <p>
-      Candidates arrive one at a time. Accept or reject each on the spot —
-      rejection is final — and you want the single best one. Kepler spent
-      two years interviewing eleven candidates for his second wife before
-      the actual mathematics arrived three centuries later: skip the first
-      37% no matter how good they look, then take the first one better than
-      all of them. Nothing does better, and it wins about 37% of the time.
+      Candidates arrive one at a time; accept or reject on the spot, no going
+      back. Skip the first 37% no matter how good they look, then take the
+      next one better than all of them — nothing does better.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#secretary' | relative_url }}">Check out the secretary problem →</a>
   </div>
@@ -242,12 +212,10 @@ close yourself.
   <div class="ep-card">
     <h3>Whatever you find, swapping looks 25% better</h3>
     <p>
-      Two envelopes; one holds twice what the other does. You open yours and
-      find $100 — the other holds $50 or $200, equally likely, so swapping
-      looks worth $125. The same argument works for any amount you might
-      have found, including before you've opened anything, which means you
-      should swap forever. The error hides in a prior nobody bothered to
-      write down — write down a real one and the argument falls apart.
+      One envelope holds twice what the other does. Find $100, and swapping
+      looks worth $125 — but the same logic applies to any amount, even
+      before you look, so you'd swap forever. The flaw hides in an unstated
+      prior.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#two-envelopes' | relative_url }}">Check out the two-envelope paradox →</a>
   </div>
@@ -255,12 +223,9 @@ close yourself.
   <div class="ep-card">
     <h3>Keep testing until it works</h3>
     <p>
-      Run an experiment. If it isn't significant yet, collect a little more
-      data and test again. This sounds like diligence; it is a machine for
-      manufacturing false positives. A nominal 5% error rate can pass 60%
-      once you're allowed to keep looking — the same mathematics as
-      gambler's ruin, with the p-value as the random walk and significance
-      as a barrier that keeps retreating just out of reach.
+      Test as you go, adding data until the result is significant. It feels
+      diligent; it's actually a false-positive machine — a nominal 5% error
+      rate can climb past 60% once you're allowed to keep looking.
     </p>
     <a class="ep-go" href="{{ '/exploring-probability/#optional-stopping' | relative_url }}">Check out optional stopping →</a>
   </div>
