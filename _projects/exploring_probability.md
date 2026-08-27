@@ -188,21 +188,6 @@ close yourself.
   </div>
 
   <div class="ep-card">
-    <h3>Paid either way</h3>
-    <p>
-      Sell a put and you get paid whichever way it goes — keep the premium if
-      the stock stays up, or buy it at a discount if it falls. Own the shares,
-      sell a call against them, and get called away, and you go right back to
-      selling puts. Traders call the cycle "the wheel," and getting paid on
-      both sides of every move sounds like it must beat simply owning the
-      stock. Run it on what the S&amp;P, Apple or the Nikkei actually did
-      since 2009 and it sometimes does, sometimes loses badly — and the win
-      rate on the individual trades tells you nothing about which.
-    </p>
-    <a class="ep-go" href="{{ '/exploring-probability/#the-wheel' | relative_url }}">Check out the wheel strategy →</a>
-  </div>
-
-  <div class="ep-card">
     <h3>Two losing games, mixed into a winner</h3>
     <p>
       Play either game on its own, long enough, and you go broke — both are
