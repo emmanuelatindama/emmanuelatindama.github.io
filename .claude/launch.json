@@ -12,6 +12,12 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "4001", "--directory", "C:/Users/atindame/Downloads/exploring-probability"],
       "port": 4001
+    },
+    {
+      "name": "exploring-mechanics",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "4002", "--directory", "C:/Users/atindame/Downloads/exploring-mechanics"],
+      "port": 4002
     }
   ]
 }
