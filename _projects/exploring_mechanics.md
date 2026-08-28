@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Exploring Mechanics
-description: Interactive simulations of physical systems, mechanical principles, and dynamical behavior.
+description: An interactive, mathematics-first path through classical mechanics, from Newton's laws to gyroscopes and chaos.
 img: assets/img/exploring-mechanics.png
 importance: 2
 category: work
@@ -40,6 +40,9 @@ _styles: >
     margin: 0;
     color: var(--global-text-color-light);
   }
+  /* The link closes the card, so the eye lands on it after the hook. It is
+     underlined rather than colour-only, and pushed to the bottom so cards of
+     unequal text length still line their calls-to-action up. */
   .em-card a.em-go {
     margin-top: auto;
     align-self: flex-start;
@@ -58,149 +61,138 @@ _styles: >
 
 <div class="em-lede" markdown="1">
 
-The physical world follows rules, but intuition about those rules breaks down
-when variables interact. Friction and inertia seem simple until you pair them
-with angles. Oscillators seem predictable until you couple them. Fluids seem
-passive until you watch them self-organize into vortices and patterns.
+Mechanics has a reputation for being the physics you already know: things fall,
+things push back, things spin. Most of that intuition holds up for a block on a
+table. It stops holding up almost immediately once forces interact — a cone
+that rolls <em>uphill</em>, a pulley that halves your force and doubles your
+work, a spinning wheel that turns sideways instead of falling, a curve that
+gets a bead downhill faster than the straight line between two points.
 
-Real mechanisms reveal their secrets through simulation: watch what happens when
-you change a single parameter. Most systems hide their behavior until you build
-them. Each exploration below is one place where the map and the territory
-diverge — where equations hide counterintuitive dynamics that only emerge when
-you <em>see</em> the motion. They are simulated live in your browser, so you can
-adjust the forces and watch how the system responds.
+Each section below is one stretch of that path, building from vectors and
+Newton's laws up through energy, momentum, machines, rotation, oscillation, and
+a set of problems built specifically to break the intuition the earlier
+sections just built. Every page starts with a prediction before it shows you
+the answer.
 
 </div>
 
 <div class="em-grid">
 
   <div class="em-card">
-    <h3>Pendulum at large angles</h3>
+    <h3>0. The toolkit</h3>
     <p>
-      Small-angle approximation works well for shallow swings, but release a
-      pendulum from near-horizontal and the period jumps. The small-angle
-      assumption that makes teaching easy vanishes once you actually let it
-      swing.
+      Vectors, units, coordinate systems, reference frames, free-body diagrams —
+      the vocabulary everything after this section assumes you already have.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#pendulum' | relative_url }}">Explore the pendulum →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/00-toolkit/' | relative_url }}">Check out the toolkit →</a>
   </div>
 
   <div class="em-card">
-    <h3>Coupled oscillators and resonance</h3>
+    <h3>1. Kinematics</h3>
     <p>
-      Two pendulums coupled by a spring trade energy back and forth. Adjust the
-      coupling strength or drive one at the right frequency, and the whole
-      system responds with amplitudes that seem to come from nowhere.
+      Position, velocity, and acceleration, described without yet asking what
+      causes them — constant velocity, free fall, and projectile motion, up
+      through relative motion between moving observers.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#coupled-oscillators' | relative_url }}">Explore coupled oscillators →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/01-kinematics/' | relative_url }}">Check out kinematics →</a>
   </div>
 
   <div class="em-card">
-    <h3>Friction and sliding angles</h3>
+    <h3>2. Newton's laws</h3>
     <p>
-      A block on an incline either stays put or slides, but the threshold
-      depends on static versus kinetic friction — two different numbers nobody
-      thinks about. Watch the stick-slip transition as you tilt the plane.
+      Inertia, F = ma, and action-reaction pairs that don't cancel because they
+      act on different objects — then friction, inclines, and connected objects
+      as the first place the laws get genuinely hard to apply.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#friction' | relative_url }}">Explore friction →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/02-newtons-laws/' | relative_url }}">Check out Newton's laws →</a>
   </div>
 
   <div class="em-card">
-    <h3>Rolling vs. sliding motion</h3>
+    <h3>3. Work, energy, and power</h3>
     <p>
-      A sphere rolled down one ramp and slid down another will split, even
-      though both start at the same height. Rolling dissipates energy into
-      rotational motion — a fact that lives in the moment of inertia, not the
-      height.
+      A shortcut around messy force diagrams: track energy instead of force,
+      and problems like roller coasters and pendulums stop needing calculus to
+      solve.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#rolling' | relative_url }}">Explore rolling motion →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/03-energy/' | relative_url }}">Check out energy and power →</a>
   </div>
 
   <div class="em-card">
-    <h3>Centripetal force and banking</h3>
+    <h3>4. Momentum, impulse, and collisions</h3>
     <p>
-      Cars on banked curves feel different forces depending on speed. Too slow
-      and friction points uphill; too fast and it points downhill. There is one
-      speed where friction doesn't matter at all.
+      What survives a collision that energy doesn't. A ballistic pendulum
+      solves in two stages — momentum during the crash, energy after it —
+      because no single conservation law covers the whole event.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#banking' | relative_url }}">Explore centripetal force →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/04-momentum/' | relative_url }}">Check out momentum and collisions →</a>
   </div>
 
   <div class="em-card">
-    <h3>Fluid drag and terminal velocity</h3>
+    <h3>5. Constraints and simple machines</h3>
     <p>
-      Things falling through air accelerate until drag matches weight, then move
-      at constant speed. Heavier or larger objects reach different terminal
-      velocities — a race where both the rules and the answer flip with shape.
+      Levers, pulleys, screws, and gears all make the same trade: less force
+      for more distance, never both. A movable pulley that halves your lifting
+      force doubles how far you have to pull the rope — no exceptions.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#drag' | relative_url }}">Explore drag and terminal velocity →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/05-simple-machines/' | relative_url }}">Check out simple machines →</a>
   </div>
 
   <div class="em-card">
-    <h3>Double pendulum chaos</h3>
+    <h3>6. Circular motion and gravitation</h3>
     <p>
-      A pendulum hanging from another pendulum looks chaotic, and it is —
-      sensitive to starting position in a way single pendulums are not. Tiny
-      differences in initial angle lead to wildly different futures.
+      The force that keeps something moving in a circle points inward, not
+      outward — "centrifugal force" is what it feels like from inside a
+      rotating frame, not what's actually happening in an inertial one.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#double-pendulum' | relative_url }}">Explore the double pendulum →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/06-circular-motion/' | relative_url }}">Check out circular motion →</a>
   </div>
 
   <div class="em-card">
-    <h3>Moment of inertia shapes</h3>
+    <h3>7. Rotational mechanics and rolling</h3>
     <p>
-      A ring and a disk with the same mass and radius behave differently when
-      spun — the ring's mass sits farther from the axis, so it takes more
-      torque to speed up. Distribution matters more than total mass.
+      Newton's laws again, but spinning: torque instead of force, moment of
+      inertia instead of mass. A hoop, disk, and sphere released from the same
+      height down the same ramp do not arrive together.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#inertia' | relative_url }}">Explore moment of inertia →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/07-rotation-and-rolling/' | relative_url }}">Check out rotation and rolling →</a>
   </div>
 
   <div class="em-card">
-    <h3>Projectile motion and air resistance</h3>
+    <h3>8. Oscillations, resonance, and chaos</h3>
     <p>
-      The parabolic arc you learned about is only true in a vacuum. Add air
-      resistance and the trajectory compresses, the landing spot moves closer,
-      and the optimal angle stops being 45°.
+      Simple harmonic motion repeats forever right up until damping or a
+      second coupled pendulum enters the picture — then two nearly identical
+      starting angles diverge into completely different futures.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#projectile' | relative_url }}">Explore projectile motion →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/08-oscillations/' | relative_url }}">Check out oscillations and chaos →</a>
   </div>
 
   <div class="em-card">
-    <h3>Gyroscopic precession</h3>
+    <h3>9. Counterintuitive mechanics problems</h3>
     <p>
-      Spin a wheel and try to tip it sideways — instead of falling, it turns.
-      Gravity applies torque perpendicular to the spin, and the result is motion
-      that seems to ignore the force entirely.
+      A double cone that appears to roll uphill, a chain that fountains above
+      the container it falls from, a straight line that loses a race to a
+      curve. Predict the outcome before you read the resolution.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#gyroscope' | relative_url }}">Explore gyroscopic precession →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/09-unintuitive-problems/' | relative_url }}">Check out the unintuitive problems →</a>
   </div>
 
   <div class="em-card">
-    <h3>Spring-mass systems and energy</h3>
+    <h3>10. Real-world capstones</h3>
     <p>
-      Compression and extension trade places in a spring-mass system. The mass
-      oscillates, and at different points in the cycle, all the energy is
-      kinetic, all is potential, or shared between them.
+      Bowling, bicycles, roller coasters, bridges, bows, and catapults, each
+      built up in stages from the sections above — the payoff for having
+      learned the individual pieces first.
     </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#spring-mass' | relative_url }}">Explore spring-mass systems →</a>
-  </div>
-
-  <div class="em-card">
-    <h3>Damping and energy loss</h3>
-    <p>
-      Real oscillators have friction or air resistance, and energy bleeds away.
-      Adjust the damping and watch the system go from bouncy to overdamped —
-      critical damping sits precisely between them.
-    </p>
-    <a class="em-go" href="{{ '/exploring-mechanics/#damping' | relative_url }}">Explore damping →</a>
+    <a class="em-go" href="{{ '/exploring-mechanics/10-capstones/' | relative_url }}">Check out the capstones →</a>
   </div>
 
 </div>
 
 <div class="em-soon" markdown="1">
 
-More simulations coming soon. If you'd like to explore a particular mechanism or
-system, [get in touch](mailto:emmanuel.atindama@bms.com).
+This project is under active construction — each section currently outlines
+its subtopics, with full derivations and interactive simulations landing
+incrementally. Follow along on [GitHub](https://github.com/emmanuelatindama/exploring-mechanics).
 
 </div>
