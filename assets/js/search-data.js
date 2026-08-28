@@ -116,7 +116,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-exploring-mechanics",
           title: 'Exploring Mechanics',
-          description: "Interactive simulations of physical systems, mechanical principles, and dynamical behavior.",
+          description: "An interactive, mathematics-first path through classical mechanics, from Newton&#39;s laws to gyroscopes and chaos.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/exploring_mechanics/";
             },},{id: "projects-exploring-probability",
