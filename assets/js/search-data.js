@@ -114,7 +114,12 @@ ninja.data = [{
           section: "News",},{id: "news-latest-blog-post-equivalence-concordance-rate-ecr-calibrating-equivalence-acceptance-criteria-aug-25-2026",
           title: 'Latest blog post: Equivalence Concordance Rate (ECR): Calibrating Equivalence Acceptance Criteria (Aug 25,...',
           description: "",
-          section: "News",},{id: "projects-exploring-probability",
+          section: "News",},{id: "projects-exploring-mechanics",
+          title: 'Exploring Mechanics',
+          description: "Interactive simulations of physical systems, mechanical principles, and dynamical behavior.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/exploring_mechanics/";
+            },},{id: "projects-exploring-probability",
           title: 'Exploring Probability',
           description: "Interactive simulations of games where the average outcome and the typical outcome disagree.",
           section: "Projects",handler: () => {
