@@ -2,7 +2,7 @@
 layout: page
 title: Exploring Mechanics
 description: An interactive, mathematics-first path through classical mechanics, from Newton's laws to gyroscopes and chaos.
-img: assets/img/exploring-mechanics.png
+img: assets/img/exploring-mechanics-thumbnail.jpg
 importance: 2
 category: work
 github: https://github.com/emmanuelatindama/exploring-mechanics
